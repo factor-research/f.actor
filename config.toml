@@ -1,4 +1,4 @@
-baseURL = 'https://'
+baseURL = 'https://factorcrypto.github.io/f.actor'
 languageCode = 'en-us'
 title = 'Factor' 
 theme = 'cactus'
