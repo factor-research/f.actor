@@ -1,0 +1,45 @@
+baseURL = 'https://f.actor'
+languageCode = 'en-us'
+title = 'Factor' 
+theme = 'cactus'
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "About"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Portfolio"
+url = "#portfolio"
+weight = 2
+
+[[menu.main]]
+name = "Team"
+url = "#team"
+weight = 3
+
+# the value of name should be an valid font awesome icon name (brands type)
+# https://fontawesome.com/icons?d=gallery&s=brands
+[[params.social]]
+name = "github"
+link = "https://github.com/factorcrypto"
+[[params.social]]
+name = "twitter"
+link = "https://www.twitter.com"
+[[params.social]]
+name = "email"
+link = "hello@f.actor"  # no need for "mailto:" in the head
+
+[params]
+   colortheme = "white" # light, white, or classic
+
+   # Home
+   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus rhoncus lobortis. Phasellus facilisis sapien in justo sagittis, eget egestas quam elementum. Suspendisse lobortis, orci non consequat auctor, dolor metus mollis lectus, eget tincidunt ante sapien vitae enim. "
+   mainSection = "posts" # your main section
+   postsOnHomePage = 20 # this option will be ignored if showAllPostsOnHomePage is set to true
+   dateFormat = "2006-01-02" # default
+
+   # Home::Projects
+   showProjectsList = true # show projects list by default (if projects data file exists).
+   

@@ -1,0 +1,14 @@
+---
+list:
+- name: Gnosis
+  url: https://gnosis.io/
+  desc: Accelerating Ethereum 
+- name: Nomad
+  url: https://www.nomad.xyz/
+  desc: Security-first cross-chain messaging protocol
+- name: Axelar
+  url: https://axelar.network/
+  desc: A cross-chain gateway protocol
+- name: Celestia
+  url: https://celestia.org/
+  desc: A modular consensus and data network
