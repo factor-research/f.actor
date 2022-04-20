@@ -32,14 +32,31 @@ name = "email"
 link = "hello@f.actor"  # no need for "mailto:" in the head
 
 [params]
-   colortheme = "white" # light, white, or classic
+    # Overall
+    colortheme = "white" # light, white, or classic
+    copyright = "Factor"
+    mathjax = true
 
-   # Home
-   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus rhoncus lobortis. Phasellus facilisis sapien in justo sagittis, eget egestas quam elementum. Suspendisse lobortis, orci non consequat auctor, dolor metus mollis lectus, eget tincidunt ante sapien vitae enim. "
-   mainSection = "posts" # your main section
-   postsOnHomePage = 20 # this option will be ignored if showAllPostsOnHomePage is set to true
-   dateFormat = "2006-01-02" # default
+    # Home
+    description = "Factor builds and invests in open internet infrastructure that enhances privacy, trust, and financial access."
+    mainSection = "posts" # your main section
+    postsOnHomePage = 20 # this option will be ignored if showAllPostsOnHomePage is set to true
+    dateFormat = "2006-01-02" # default
 
-   # Home::Projects
-   showProjectsList = true # show projects list by default (if projects data file exists).
-   
+    # Home::Projects
+    showProjectsList = true # show projects list by default (if projects data file exists).
+
+    # Posts
+    tocInline = true
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
