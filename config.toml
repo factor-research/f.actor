@@ -10,8 +10,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Portfolio"
-url = "#portfolio"
+name = "Projects"
+url = "#projects"
 weight = 2
 
 [[menu.main]]
@@ -23,10 +23,10 @@ weight = 3
 # https://fontawesome.com/icons?d=gallery&s=brands
 [[params.social]]
 name = "github"
-link = "https://github.com/factorcrypto"
+link = "https://github.com/factor-research"
 [[params.social]]
 name = "twitter"
-link = "https://www.twitter.com"
+link = "https://twitter.com/Factoooor"
 [[params.social]]
 name = "email"
 link = "hello@f.actor"  # no need for "mailto:" in the head
@@ -38,7 +38,7 @@ link = "hello@f.actor"  # no need for "mailto:" in the head
     mathjax = true
 
     # Home
-    description = "Factor builds and invests in open internet infrastructure that enhances privacy, trust, and financial access."
+    description = "Factor builds open internet infrastructure that enhances privacy, trust, and financial access."
     mainSection = "posts" # your main section
     postsOnHomePage = 20 # this option will be ignored if showAllPostsOnHomePage is set to true
     dateFormat = "2006-01-02" # default
